@@ -1,8 +1,8 @@
 name: ZMediumToMarkdown
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "10 1 15 * *" # Runs at 01:10 (UTC) on the 15th of every month.
+  #schedule:
+  #  - cron: "10 1 15 * *" # Runs at 01:10 (UTC) on the 15th of every month.
     # Schedule to automatically sync at specified intervals
     # Reference: https://crontab.guru/
 
